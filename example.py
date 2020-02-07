@@ -13,12 +13,10 @@ importlib.reload(xnet2communities_wordcloud);
 minYear = 2000
 minKCore = 1
 queryID = "ee732263-ef2b-4912-87c1-de0bd1b54a11";
-workingDirectory = "DemoData"
+workingDirectory = "demo_data"
 queriesDirectory = os.path.join(workingDirectory,"query-results");
 outputNetworkDirectory = os.path.join(workingDirectory,"networks");
 outputFiguresDirectory = os.path.join(workingDirectory,"figures");
-
-
 
 os.makedirs(outputNetworkDirectory, exist_ok=True)
 os.makedirs(outputFiguresDirectory, exist_ok=True)
